@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Home Page </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(event){
+	$("#help-dropdown").mouseover(function(){
+		$(this).find("#help-dd").css(
+			{'color':'#2e8b57','background-color':'#333','transition':'0.3s 0.02s ease'}
+		);
+		$(".help-container").stop().slideDown(500);
+	});
+
+	$("#help-dropdown").mouseout(function(){
+		$(this).find("#help-dd").css(
+			{'color':'#b5b5b5','background-color':'#111','transition':'1.2s 0.25s ease'}
+		);
+		$(".help-container").stop().slideUp(500);
+	});
+
+});
+</script>
+</head>
+<body>
+<nav class="gnav">
+	<div class="darkbar">
+	<div class="left">
+		<div class="active">
+			<span> HOME </span>
+		</div>
+	</div>
+	<div class="right">
+		<div>
+			<a href="#"> SIGN UP </a>
+		</div>
+		<div id="help-dropdown">
+			<a id="help-dd" href="#"> HELP </a>
+			<div class="help-container is-hidden">
+				<ul>
+					<li class="help-container-title">
+						<a href="#"> Get Help </a>
+					</li>
+					<li>
+						<a href="#"> Contact Us </a>
+					</li>
+					<li>
+						<a href="#"> Give Feedback </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<form class="search-box left">
+			<input placeholder="Search..." type="text" name="q" autocomplete="off"/>
+			<button class="submit" type="submit"></button>
+		</form>
+	</div>
+</nav>
+</body>
+</html>
