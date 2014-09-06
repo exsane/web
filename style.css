@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #dcdcdc;
+  font-size: 11px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.gnav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.darkbar {
+  height: 30px;
+  background: #111;
+  padding: 0px 20px 0 20px;
+  font-size: 13px;
+}   
+
+    .darkbar > .left > div {
+      padding-top: 8px;
+      margin-right: 10px;
+      float: left;
+    }
+    .darkbar > .left > div.active {
+      color: #2e8b57;
+    }
+    .darkbar > .left > div > a {
+      color: #b5b5b5;
+    }
+    .darkbar > .right > div {
+      float: left;
+    }
+    .darkbar > .right > div > a {
+      display: block;
+      padding: 7px 10px 8px 10px;
+      color: #b5b5b5;
+    }
+
+
+.search-box {
+  padding: 2px 0 0 5px;
+}
+.search-box input {
+  padding: 0px 35px 0 7px;
+  width: 350px;
+  color: #000;
+  background: #dcdcdc;
+  height: 26px;
+  font-size: 13px;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  line-height: 18px;
+  border: 0;
+  border-radius: 3px;
+}
+.search-box .submit {
+  background: url(https://a-v2.sndcdn.com/assets/images/header/header-icons-7351459d.png) 50% -359px no-repeat;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 7px;
+  right: 27px;
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+}
+.search-box input:focus {
+  background: #fff;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: #111;
+  font-style: italic;
+}
+
+.help-container {
+  position: absolute;
+  right: 416px;
+  top: 30px;
+  background: #333;
+  padding: 20px 30px 20px 30px;
+  width: 165px;
+  z-index: 900;
+}
+
+    .help-container-title {
+      font-size: 22px;
+      margin-bottom: 5px;
+      font-style: italic;
+    }
+    .help-container > ul > li {
+      padding: 5px 0px;
+    }
+    .help-container a {
+      padding: 0;
+      display: block;
+      color: #fff;
+      transition: 0.5s 0.02s ease;
+    }
+    .help-container a:hover {
+      color: #b5b5b5;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
